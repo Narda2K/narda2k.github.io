@@ -5,5 +5,3 @@
 layout: home
 
 ---
-## Hello there!
-## hier ist meine kleine eigene Webpräsenz, hier kann man einen kleinen eindruck erlangen wer ich bin wofür ich mich interessiere und vor allem was meine Fähigkeiten sin!
