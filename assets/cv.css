@@ -343,22 +343,31 @@ table td {
     font-size: 36px;
   }
 }
+
+@media screen and (min-width: 801px) {
+  h1, h2, h3, h4, h5, h6 {
+    grid-column: 1;
+  }
+  p, ul, li, code{
+    grid-column: 2;
+  }
+}
  /**
  * Headings
  */
  h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  grid-column: 1;
-  padding-top: -10px;
 }
-p, ul, li, code{
-  grid-column: 2;
+
+@media screen and (min-width: 800px) {
+  .post-content {
+    display: grid;
+    grid-template-columns: 300px auto; /* First column auto-sized, second column takes the remaining space */
+    column-gap: 10px; /* Adjust the gap between the columns as needed */
+  }
 }
 .post-content {
   margin-bottom: 30px;
-  display: grid;
-  grid-template-columns: 300px auto; /* First column auto-sized, second column takes the remaining space */
-  column-gap: 10px; /* Adjust the gap between the columns as needed */
 }
 .post-content h2 {
   font-size: 32px;
