@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: {{my_page.header_startseite}}
-
+title: Willkommen auf meiner Website
 ---
 ## woho
