@@ -29,8 +29,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
-#meine Variablen
-startseite: Willkommen auf meiner Website
+minima:
+  skin: dark
 
 # Build settings
 theme: minima
